@@ -1,0 +1,55 @@
+/* Report.module.scss */
+
+.container {
+  margin: 20px;
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+
+.title {
+  font-size: 3.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.salesTable {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+}
+
+.detailsTable {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+}
+
+.totalSales {
+  margin-top: 20px;
+}

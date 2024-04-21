@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Game",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "desc": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "RPG",
+        "Action",
+        "Sports",
+        "Strategy",
+        "Fighting",
+        "Adventure",
+        "Arcade",
+        "Racing",
+        "Quest",
+        "Simulation",
+        "Shooter",
+        "MMO",
+        "Educational",
+        "Other"
+      ],
+      "required": true
+    }
+  }
+}
